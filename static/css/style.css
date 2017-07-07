@@ -131,6 +131,7 @@ footer {
 
 p {
     line-height: 1.5;
+    text-align:justify;
 }
 
 progress {
@@ -191,7 +192,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
+    background-image:url('../image/me.jpg');
     background-size: 120%;
     background-position:center;
     border-radius:50%;
@@ -233,7 +234,7 @@ progress::-moz-progress-value {
     background-color: #d4dee4;
 }
 
-.info-unit ul li:hover {
+.info-unit ul li h3:hover {
     background-color: #d4dee4;
 }
 
@@ -285,6 +286,10 @@ ul li{
     visibility: hidden;
     cursor: pointer;
     
+}
+.elf-evaluation{
+    margin-left: 2em;
+    text-indent:2em
 }
 
 
