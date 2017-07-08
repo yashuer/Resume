@@ -292,4 +292,36 @@ ul li{
     text-indent:2em
 }
 
+.shadowT{
+    position: fixed;
+    top: 0;
+    height: 50%;
+    background-color: #f00;
+    width: 100%;
+    z-index: 999;
+}
+.shadowB{
+    position: fixed;
+    top: 50%;
+    height: 50%;
+    background-color: #f00;
+    width: 100%;
+    z-index: 999;
+}
+.entry{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    margin-top:-15px;
+    margin-left: -150px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 999;
+}
+.entry span,input{
+    position: relative;
+}
 
