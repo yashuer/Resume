@@ -86,28 +86,28 @@ jQuery(document).ready(function($) {
     //     $(this).attr("value", event.offsetX/$(this).width()/0.8 * $(this).attr("max"));
     // });
     $("*").removeAttr('contenteditable');
-    $(".word-ipt").focus();
-    $(".confirm").click(function(){
-        if(escape($(".word-ipt").val())=="%u8FD9%u5C31%u662F%u5BC6%u7801%uFF01"){
-            $(".shadowT").slideUp();
-            $(".shadowB").animate({top:"100%"},500);
-            $(".entry span").animate({left:"-150px"},500)
-            $(".entry .word-ipt").animate({top:"-150px"},500)
-            $(".entry .confirm").animate({right:"-150px",transform:"rotate(9deg)"},500,function(){
-                $(".entry").hide();
-            })            
-        }
-    })
-    document.onkeydown = function(event_e){  
-        if(window.event) {  
-            event_e = window.event;  
-        }  
+    // $(".word-ipt").focus();
+    // $(".confirm").click(function(){
+    //     if(escape($(".word-ipt").val())=="%u8FD9%u5C31%u662F%u5BC6%u7801%uFF01"){
+    //         $(".shadowT").slideUp();
+    //         $(".shadowB").animate({top:"100%"},500);
+    //         $(".entry span").animate({left:"-150px"},500)
+    //         $(".entry .word-ipt").animate({top:"-150px"},500)
+    //         $(".entry .confirm").animate({right:"-150px",transform:"rotate(9deg)"},500,function(){
+    //             $(".entry").hide();
+    //         })            
+    //     }
+    // })
+    // document.onkeydown = function(event_e){  
+    //     if(window.event) {  
+    //         event_e = window.event;  
+    //     }  
   
-        var int_keycode = event_e.charCode||event_e.keyCode;  
-        if( int_keycode == '13' ) {  
-            $(".confirm").click();
-        }  
-    }    
+    //     var int_keycode = event_e.charCode||event_e.keyCode;  
+    //     if( int_keycode == '13' ) {  
+    //         $(".confirm").click();
+    //     }  
+    // }    
     
 
 });
